@@ -32,7 +32,7 @@ JAEGER_HOST = "localhost"
 JAEGER_PORT = 6831
 
 [tasks.before_build]
-run-task = [
+run_task = [
     {name = [
         "compose-up-db",
         "compose-up-redis",
